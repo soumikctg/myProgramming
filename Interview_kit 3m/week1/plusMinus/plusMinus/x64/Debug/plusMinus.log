@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\myProgramming\Interview_kit 3m\week1\plusMinus\plusMinus\Source.cpp(6,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\myProgramming\Interview_kit 3m\week1\plusMinus\plusMinus\Source.cpp(21,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\myProgramming\Interview_kit 3m\week1\plusMinus\plusMinus\Source.cpp(22,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\myProgramming\Interview_kit 3m\week1\plusMinus\plusMinus\Source.cpp(23,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  plusMinus.vcxproj -> D:\myProgramming\Interview_kit 3m\week1\plusMinus\x64\Debug\plusMinus.exe
