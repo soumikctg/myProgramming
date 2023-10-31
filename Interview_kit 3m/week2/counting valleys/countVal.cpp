@@ -4,20 +4,8 @@ using namespace std;
 int countingValleys(int steps, string path){
     int val=0;
     int s=0;
-    bool t=true;
-    for(int i=0;i<steps;i++){
-        if(s==0 && t==false){
-            val++;
-        }
-        if(s<0){
-            t=false;
-        }
-        else{
-            t=true;
-        }
-
-        
-        
+    int x=0;
+    for(int i=0;i<steps;i++){ 
         if(path[i]=='U'){
             s++;
         }
@@ -25,6 +13,10 @@ int countingValleys(int steps, string path){
             s--;
         }
         
+        if(s==0 && x<0){
+            val++;
+        }
+        x = s;
     }
     return val;
 }
