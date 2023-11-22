@@ -13,10 +13,12 @@ string caesarCipher(string s, int k) {
             }
             else if(s[i]>=97 && s[i]<=122){
                 k=k%26;
+                s[i]-=26;
                 s[i]+=k;
-                if(s[i]>122){
+                if(s[i]+26 > 122){
                     s[i]-=26;
                 }
+                s[i]+=26;
             }
 
         }
